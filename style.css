@@ -1,0 +1,117 @@
+body{
+	background:url("pixels_shadow_color_background_18448_1920x1080.jpg");
+	
+	background-repeat: no-repeat;
+	background-size:cover;
+
+	overflow-y: hidden;
+}
+
+
+
+#container{
+text-align: center;
+	
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+    position: absolute;
+}
+
+#header{
+	padding-bottom: 1%;
+}
+
+.styling{
+	margin: 20px;
+	background-color: white;
+}
+
+h1{
+	color:white;
+	font-weight: 500;
+	font-size: 4em;
+}
+
+
+hr{
+	width:400px;
+	border-top:1px solid #f8f8f8;
+	border-bottom:1px solid rgba(0,0,0,0);
+}
+
+.user_input{
+	border-radius: 5px;
+}
+
+
+#output{
+	display:none;
+	margin:auto;
+	text-align: center;
+	width:500px;
+	height:300px;
+	/*border: 2px solid pink;*/
+}
+
+.btn{
+	background-color: #900C3F;
+}
+
+#myTable {
+    width: 100%;
+   /* background-image: url("weather-forecast.gif");*/
+     background-size: cover;
+     color:white;
+}
+
+.radioBtn{
+	padding-left: 50px;
+}
+
+label{
+	color:white;
+	 font: 15px arial, sans-serif;
+}
+
+tbody{
+	align:center;
+}
+thead{
+	align:center;
+}
+td{
+
+	font-size: 18px;
+	margin:auto;
+	align:center;
+	font-weight: 500;
+	
+}
+
+p {
+	font-size: 25px;
+	color : white;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+thead{
+	align:center;
+}
+th {
+	font-weight: 500;
+	align:center;
+	margin-right: 10px;
+	margin-left: 5px;
+	 font-family: 'Berkshire Swash', cursive;
+	 font-size:15px;
+}
+
+#alert{
+	margin: auto 50px;
+	background-color:#a65959;
+	color:white;
+	opacity: 0.7;
+}
+
